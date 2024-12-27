@@ -15,7 +15,7 @@ driver.get("https://www.google.com")
 
 
 search_box = driver.find_element(By.NAME, "q")
-search_box.send_keys("lequangkhai.id.vn")
+search_box.send_keys("Python")
 search_box.send_keys(Keys.RETURN)
 
 time.sleep(5)
